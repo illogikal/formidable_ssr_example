@@ -1,0 +1,36 @@
+{
+  "name": "ssr-test",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "node craftsman serve",
+    "start:dev": "node craftsman serve --dev",
+    "test": "jest --roots test",
+    "test:watch": "jest --roots test --watchAll"
+  },
+  "dependencies": {
+    "@bugsnag/js": "^7.16.2",
+    "@formidablejs/bugsnag-plugin": "^0.0.3",
+    "@formidablejs/framework": "^0.11.9",
+    "@formidablejs/mailer": "^0.3.0",
+    "@formidablejs/pretty-errors": "^0.0.5",
+    "@formidablejs/stubs": "^0.2.7",
+    "@formidablejs/view": "^0.1.8",
+    "@vscode/sqlite3": "^5.0.8",
+    "axios": "^0.27.2",
+    "imba": "^2.0.0-alpha.209",
+    "imba-shell": "^0.4.0",
+    "mobx": "^6.6.1",
+    "mobx-state-tree": "^5.1.5",
+    "sqlite3": "^5.0.8",
+    "supertest": "^6.2.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.4",
+    "@types/node": "^18.0.1",
+    "jest": "^28.1.2"
+  }
+}
