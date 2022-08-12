@@ -13,5 +13,5 @@ import { view } from '@formidablejs/framework'
 
 Route.get '/*', do 
 	# FOR SSR
-	url = await $1.url()
-	view(App, { url })
+	ssr_url = await $1.url()
+	view(App, { ssr_url })

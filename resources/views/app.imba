@@ -18,7 +18,7 @@ export class App < View
 				<style src="../imba/main.imba">
 
 			<body>
-				# <script type="module" src="../imba/main.imba"> 
-				<div#app ><InnerApp html:ssr_url=get('url')>
+				<script type="module" src="../imba/main.imba"> 
+				<div#app ><InnerApp html:ssr_url=get('ssr_url')>
 				try
 					<Props html:locale=locale>

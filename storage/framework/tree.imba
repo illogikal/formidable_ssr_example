@@ -1,5 +1,5 @@
 ﻿
-import { types, addMiddleware } from "mobx-state-tree"
+import { types } from "mobx-state-tree"
 
 const RootStore = types.model({
 	test: 'sup'
